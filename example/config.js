@@ -1,7 +1,7 @@
 module.exports = {
   // pathPrefix: '/gatsby-theme-academic',
   // siteUrl: 'https://tc-imba.github.io',
-  pathPrefix: '/website',
+  // pathPrefix: '/website',
   siteUrl: 'https://vincent-tiono.github.io',
   title: 'John Doe',
   description: 'Personal Website of John Doe',
