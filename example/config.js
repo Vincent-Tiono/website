@@ -1,6 +1,8 @@
 module.exports = {
-  pathPrefix: '/gatsby-theme-academic',
-  siteUrl: 'https://tc-imba.github.io',
+  // pathPrefix: '/gatsby-theme-academic',
+  // siteUrl: 'https://tc-imba.github.io',
+  pathPrefix: '/website',
+  siteUrl: 'https://vincent-tiono.github.io',
   title: 'John Doe',
   description: 'Personal Website of John Doe',
   author: 'John Doe',
@@ -79,10 +81,10 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'cubes',
+      icon: ['fas', 'cubes'],
       title: 'Distributed Systems',
     }, {
-      icon: 'layer-group',
+      icon: ['fas', 'layer-group'],
       title: 'Full Stack Development',
     }, {
       icon: ['fab', 'linux'],

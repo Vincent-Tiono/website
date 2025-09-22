@@ -10,7 +10,8 @@ venue: a very very very very long long long long long long venue
 authors:
   - name: "Valve"
     url: "https://www.valvesoftware.com/"
-  - "Perfect World"
+  - name: "Perfect World"
+    url: ""
 path: "research/diretide"
 excerpt: Dire Tide 2020
 selected: true

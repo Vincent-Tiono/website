@@ -5,9 +5,25 @@ import {
 export const wrapPageElement = _wrapPageElement;
 
 export const onRouteUpdate = () => {
-  window.navigator.serviceWorker.register('/sw.js').then((reg) => {
-    reg.update();
-  });
+  if (process.env.NODE_ENV !== 'production') {
+    return;
+  }
+
+  if (!('serviceWorker' in window.navigator)) {
+    return;
+  }
+
+  window.navigator.serviceWorker
+    .register('/sw.js')
+    .then((reg) => {
+      reg.update();
+    })
+    .catch((error) => {
+      if (process.env.NODE_ENV === 'development') {
+        // eslint-disable-next-line no-console
+        console.warn('Service worker registration failed', error);
+      }
+    });
 };
 
 // trigger an immediate page refresh when an update is found

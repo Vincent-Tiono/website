@@ -6,13 +6,15 @@ import React from 'react';
 export default () => {
   const data = useStaticQuery(graphql`
   query {
-    currentBuildDate {
-      currentDate
+    site {
+      siteMetadata {
+        buildTime
+      }
     }
   }
 `);
-  const { currentBuildDate: { currentDate } } = data;
-  const buildTime = moment(currentDate).format('MMM Do YYYY');
+  const { site: { siteMetadata: { buildTime } } } = data;
+  const formattedBuildTime = moment(buildTime).format('MMM Do YYYY');
   return (
     <>
       <Divider style={{ color: 'var(--rs-text-tertiary)', marginTop: '3rem', marginBottom: '-3rem' }}>
@@ -26,7 +28,7 @@ export default () => {
         {' and '}
         <a href="https://github.com/">GitHub</a>
         {' style markdown'} */}
-        {`Last Updated on ${buildTime}`}
+        {`Last Updated on ${formattedBuildTime}`}
         {/* {'Powered by '}
           <a href="https://github.com/tc-imba/greatest-gatsby-academic-template">
             greatest-gatsby-academic-template

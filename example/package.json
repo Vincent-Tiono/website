@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "gatsby": "^5.13.3",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
     "gatsby-theme-academic": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -550,6 +550,8 @@ export const createSchemaCustomization = async (
   `;
   const MdxFrontmatterDef = schema.buildObjectType({
     name: 'MdxFrontmatter',
+    interfaces: ['Node'],
+    extensions: { dontInfer: {} }, // Add dontInfer to prevent conflicts
     fields: {
       title: {
         type: 'String',

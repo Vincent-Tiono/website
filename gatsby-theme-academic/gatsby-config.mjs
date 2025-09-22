@@ -46,7 +46,6 @@ const config = ({
           ],
         },
       },
-      'gatsby-plugin-react-helmet',
       {
         resolve: 'gatsby-plugin-sharp',
         options: {
@@ -123,8 +122,8 @@ const config = ({
           }
         }
       },
-      'gatsby-plugin-offline',
-      // 'gatsby-plugin-remove-serviceworker',
+      // 'gatsby-plugin-offline', // Disabled for development to avoid ServiceWorker issues
+      'gatsby-plugin-remove-serviceworker', // Ensures no ServiceWorker conflicts
       {
         resolve: 'gatsby-source-filesystem',
         options: {
@@ -290,14 +289,9 @@ const config = ({
           },
         },
       },
-      {
-        resolve: 'gatsby-plugin-build-date',
-        options: {
-          formatAsDateString: false,
-        },
-      },
     ],
     siteMetadata: {
+      buildTime, // Add build time directly to siteMetadata instead of using plugin
       pathPrefix: '/',
       siteUrl: '',
       title: 'Gatsby Theme Academic',
