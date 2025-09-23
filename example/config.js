@@ -88,7 +88,7 @@ module.exports = {
   ],
   interests: [
     {
-      icon: ['fas', 'cubes'],
+      icon: ['fas', 'laptop-code'],
       title: 'Distributed Systems',
     }, {
       icon: ['fas', 'layer-group'],
