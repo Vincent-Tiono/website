@@ -3,9 +3,9 @@ module.exports = {
   // siteUrl: 'https://tc-imba.github.io',
   pathPrefix: '',
   siteUrl: 'https://vincent-tiono.github.io',
-  title: 'Vincent Octavian Tiono',
-  description: 'Personal Website of Vincent Octavian Tiono',
-  author: 'Vincent Octavian Tiono',
+  title: 'Vincent Tiono',
+  description: 'Personal Website of Vincent Tiono',
+  author: 'Vincent Tiono',
   authorAlternative: '張甡源',
   introduction: [
     'You can write one or several paragraphs to introduce yourself here. You can find this introduction in the `config.js` file in the template.',
@@ -39,15 +39,19 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
-      url: 'https://github.com/',
+      url: 'https://github.com/Vincent-Tiono',
       icon: ['fab', 'github'],
     }, {
-      url: 'https://twitter.com/',
-      icon: ['fab', 'twitter'],
-    }, {
-      url: 'https://scholar.google.com/',
-      icon: ['fab', 'google-scholar'],
+      url: 'https://www.linkedin.com/in/vincent-tiono/',
+      icon: ['fab', 'linkedin'],
     },
+    // {
+    //   url: 'https://twitter.com/',
+    //   icon: ['fab', 'twitter'],
+    // }, {
+    //   url: 'https://scholar.google.com/',
+    //   icon: ['fab', 'google-scholar'],
+    // },
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
   // instagram: 'https://www.instagram.com/reevan100/',
