@@ -8,9 +8,9 @@ module.exports = {
   author: 'Vincent Tiono',
   authorAlternative: '張甡源',
   introduction: [
-    'I\'m a fourth-year Electrical Engineering student at [National Taiwan University](https://www.ntu.edu.tw/english/).',
+    'I am a fourth-year Electrical Engineering student at [National Taiwan University](https://www.ntu.edu.tw/english/), advised by [Shao-Hua Sun](https://shaohua0116.github.io/ as part of [NTU Robot Learning Lab](https://nturll.xyz/about).)',
     'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
-    'Here we try to test whether reloading is enabled when site updated (23).',
+    'My current research focus is on **Programmatic Reinforcement Learning** and **Robot Learning**.',
   ],
   avatar: 'avatar-new.png',
   professions: [
