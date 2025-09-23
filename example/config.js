@@ -10,7 +10,7 @@ module.exports = {
   introduction: [
     'I am a fourth-year [Electrical Engineering](https://web.ee.ntu.edu.tw/eng/index.php) student at [National Taiwan University](https://www.ntu.edu.tw/english/), advised by [Shao-Hua Sun](https://shaohua0116.github.io/) as part of [NTU Robot Learning Lab](https://nturll.xyz/about).',
     'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
-    'My current research focuses on **Programmatic Reinforcement Learning** and **Robot Learning**, aiming to enhance interpretability and safety in human-robot interaction. Generally speaking, I hold a strong interest in AI, Quant Finance, and Business.',
+    'My current research focuses on **Programmatic Reinforcement Learning** and **Robot Learning**, aiming to enhance *interpretability* and *safety* in human-robot interaction. Generally speaking, I hold a strong interest in AI, Quant Finance, and Business.',
   ],
   avatar: 'avatar-new.png',
   professions: [
@@ -71,8 +71,8 @@ module.exports = {
       date: 'Sept 2022 - Present',
       icon: 'university',
       title: 'B.S. in Electrical Engineering',
-      location: 'National Taiwan Unviversity',
-    }, 
+      location: 'National Taiwan University',
+    },
     // {
     //   date: 'Sept 2015 - Aug 2019',
     //   icon: 'university',
