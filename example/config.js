@@ -10,7 +10,7 @@ module.exports = {
   introduction: [
     'I am a fourth-year [Electrical Engineering](https://web.ee.ntu.edu.tw/eng/index.php) student at [National Taiwan University](https://www.ntu.edu.tw/english/), advised by [Shao-Hua Sun](https://shaohua0116.github.io/) as part of [NTU Robot Learning Lab](https://nturll.xyz/about). My current research focuses on **Programmatic Reinforcement Learning** and **Robot Learning**, aiming to enhance *interpretability* and *safety* in human-robot interaction.',
     // 'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
-    'Aside from Machine Learning, I had the  Generally speaking, I hold a strong interest in AI, Quant Trading, and Business.',
+    'Beyond my work in Machine Learning, I have had the immense delight of interning at [VICI Holdings](https://www.viciholdings.com/en/) as a **Quantitative Research Intern**, [EY-Parthenon](https://www.ey.com/zh_tw/services/strategy-transactions) as a **Strategy and Transactions Summer Associate**, and [Walsin Lihwa](https://www.walsin.com/en/) as a **Business Administration Intern**. Broadly, I am passionate about the intersection of AI, Quant Trading, and Business Strategy.',
   ],
   avatar: 'avatar-new.png',
   professions: [
