@@ -8,7 +8,7 @@ module.exports = {
   author: 'Vincent Tiono',
   authorAlternative: '張甡源',
   introduction: [
-    'You can write one or several paragraphs to introduce yourself here. You can find this introduction in the `config.js` file in the template.',
+    'I\'m a fourth-year Electrical Engineering student at [National Taiwan University](https://www.ntu.edu.tw/english/).',
     'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
     'Here we try to test whether reloading is enabled when site updated (23).',
   ],
