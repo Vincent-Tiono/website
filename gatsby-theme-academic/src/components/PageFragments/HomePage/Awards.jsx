@@ -43,7 +43,7 @@ const Awards = () => {
       <h2 style={{ marginBottom: '0rem' }}>Awards & Scholarships</h2>
       <Row>
         <Col xs={24} style={{ marginBottom: '-0.5rem' }}>
-          <Timeline lineStyle={{ display: 'none' }} style={{ width: '100%' }}>
+          <Timeline lineStyle={{ visibility: 'hidden' }} style={{ width: '100%' }}>
             {siteMetadata.awards.map(AwardItem)}
           </Timeline>
         </Col>

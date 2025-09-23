@@ -33,7 +33,7 @@ const Experience = () => {
           {siteMetadata.education.length > 0
             ? (
               <Timeline
-                lineStyle={{ display: 'none' }}
+                lineStyle={{ visibility: 'hidden' }}
                 style={{
                   top: '-30px',
                   width: '100%',

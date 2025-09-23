@@ -10,12 +10,13 @@ module.exports = {
   introduction: [
     'I am a fourth-year [Electrical Engineering](https://web.ee.ntu.edu.tw/eng/index.php) student at [National Taiwan University](https://www.ntu.edu.tw/english/), advised by [Shao-Hua Sun](https://shaohua0116.github.io/) as part of [NTU Robot Learning Lab](https://nturll.xyz/about). My current research focuses on **Programmatic Reinforcement Learning** and **Robot Learning**, aiming to enhance *interpretability* and *safety* in human-robot interaction.',
     // 'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
-    'Beyond my work in Machine Learning, I have had the immense delight of interning at [VICI Holdings](https://www.viciholdings.com/en/) as a **Quantitative Research Intern**, [EY-Parthenon](https://www.ey.com/zh_tw/services/strategy-transactions) as a **Strategy and Transactions Summer Associate**, and [Walsin Lihwa](https://www.walsin.com/en/) as a **Business Administration Intern**. Broadly, I am passionate about the intersection of AI, Quant Trading, and Business Strategy.',
+    'Beyond my work in Machine Learning, I\'ve had the privilege of interning at [VICI Holdings](https://www.viciholdings.com/en/) as a **Quantitative Research Intern**, [EY-Parthenon](https://www.ey.com/zh_tw/services/strategy-transactions) as a **Strategy and Transactions Summer Associate**, and [Walsin Lihwa](https://www.walsin.com/en/) as a **Business Administration Intern**. Broadly, I am passionate about the intersection of **AI**, **Quant Trading**, and **Business Strategy**.',
   ],
   avatar: 'avatar-new.png',
   professions: [
-    'Software Engineer',
-    'Full Stack Developer',
+    // 'Software Engineer',
+    // 'Full Stack Developer',
+    'Made in Indonesia',
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
@@ -73,12 +74,13 @@ module.exports = {
       title: 'B.S. in Electrical Engineering',
       location: 'National Taiwan University',
     },
-    // {
-    //   date: 'Sept 2015 - Aug 2019',
-    //   icon: 'university',
-    //   title: 'B.S.E. in Electrical and Computer Engineering',
-    //   location: 'Some University, Somewhere',
-    // },
+    {
+      date: 'Sept 2019 - June 2022',
+      icon: 'school',
+      title: 'High School Diploma',
+      location: 'Jakarta Taipei School',
+      // location: 'Some University, Somewhere',
+    },
     // {
     //   date: 'Sept 2008 - June 2015',
     //   icon: 'school',
