@@ -8,9 +8,9 @@ module.exports = {
   author: 'Vincent Tiono',
   authorAlternative: '張甡源',
   introduction: [
-    'I am a fourth-year Electrical Engineering student at [National Taiwan University](https://www.ntu.edu.tw/english/), advised by [Shao-Hua Sun](https://shaohua0116.github.io/ as part of [NTU Robot Learning Lab](https://nturll.xyz/about).)',
+    'I am a fourth-year [Electrical Engineering](https://web.ee.ntu.edu.tw/eng/index.php) student at [National Taiwan University](https://www.ntu.edu.tw/english/), advised by [Shao-Hua Sun](https://shaohua0116.github.io/) as part of [NTU Robot Learning Lab](https://nturll.xyz/about).',
     'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
-    'My current research focus is on **Programmatic Reinforcement Learning** and **Robot Learning**.',
+    'My current research focus is on **Programmatic Reinforcement Learning** and **Robot Learning**. Generally speaking, I hold a strong interest in AI, Quant Finance, and Business.',
   ],
   avatar: 'avatar-new.png',
   professions: [
@@ -19,9 +19,9 @@ module.exports = {
   ],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
-  birthday: 'Some day',
-  location: 'Earth',
-  email: 'john.doe@gmail.com',
+  // birthday: 'Some day',
+  location: 'Taipei, Taiwan',
+  email: 'b11901123@ntu.edu.tw',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT
