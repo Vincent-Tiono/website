@@ -78,12 +78,13 @@ module.exports = {
     //   icon: 'university',
     //   title: 'B.S.E. in Electrical and Computer Engineering',
     //   location: 'Some University, Somewhere',
-    // }, {
+    // },
+    // {
     //   date: 'Sept 2008 - June 2015',
     //   icon: 'school',
     //   title: 'Middle School',
     //   location: 'Some Middle School, Somewhere',
-    // }
+    // },
   ],
   interests: [
     {
