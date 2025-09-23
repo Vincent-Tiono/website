@@ -88,15 +88,15 @@ module.exports = {
   ],
   interests: [
     {
+      icon: ['fas', 'robot'],
+      title: 'Robot Learning',
+    }, {
       icon: ['fas', 'laptop-code'],
-      title: 'Distributed Systems',
+      title: 'Algorithmic Trading',
     }, {
-      icon: ['fas', 'layer-group'],
-      title: 'Full Stack Development',
-    }, {
-      icon: ['fab', 'linux'],
+      icon: ['fas', 'handshake'],
       // icon: 'linux',
-      title: 'Open Source Community',
+      title: 'Engineering Management',
     }],
   experience: [
     {
