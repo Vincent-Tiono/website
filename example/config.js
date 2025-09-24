@@ -187,7 +187,7 @@ module.exports = {
         {
           date: '(Incoming) Nov. 2025',
           title: 'Visiting Scholar',
-          location: '[**Institute for Solid State Physics, the University of Tokyo**](https://www.issp.u-tokyo.ac.jp/index_en.html)',
+          location: '[**The Institute for Solid State Physics, The University of Tokyo**](https://www.issp.u-tokyo.ac.jp/index_en.html)',
           description: [],
         },
         {
