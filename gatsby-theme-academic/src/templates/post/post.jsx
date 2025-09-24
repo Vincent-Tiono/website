@@ -100,9 +100,7 @@ function Post({
   };
 
   const time = [];
-  if (postTime) {
-    time.push(`Posted: ${postTime}`);
-  }
+
   if (commit > 0 && postTime !== editTime) {
     time.push(`Edited: ${editTime}`);
   }
@@ -197,23 +195,15 @@ function Post({
         >
           {time.join(', ')}
         </div>
-        <FlexboxGrid style={{ marginBottom: '1rem' }}>
-          <FlexboxGrid.Item as={Col} xs={24} sm={24} md={image ? 12 : 24} lg={image ? 16 : 24}>
-            <CodeBox title="Abstract" style={{ height: '100%' }}>
-              <p
-                style={{ marginBottom: '0' }}
-                dangerouslySetInnerHTML={{ __html: Utils.parseMarkDown(excerpt, true) }}
-              />
-            </CodeBox>
-          </FlexboxGrid.Item>
-          {image ? (
-            <FlexboxGrid.Item as={Col} xs={24} sm={24} md={12} lg={8}>
-              <div style={{ height: '100%' }}>
-                <GatsbyImage image={image} title={title} alt={title} />
-              </div>
-            </FlexboxGrid.Item>
-          ) : null}
-        </FlexboxGrid>
+        {image ? (
+          <div style={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            marginBottom: '1rem' 
+          }}>
+            <GatsbyImage image={image} title={title} alt={title} />
+          </div>
+        ) : null}
         {nonce === '' ? <PublicBody /> : <EncryptedBody />}
 
       </div>

@@ -182,7 +182,7 @@ export const createPages = async ({
 
     // utils.generateOmittedPostInfo(node);
     // Check path prefix of Tag
-    if (frontmatter.path.indexOf(options.pages.tags) === 0) {
+    if (frontmatter.path && frontmatter.path.indexOf(options.pages.tags) === 0) {
       const tag = _.last(frontmatter.path.split('/'));
       if (!(tag in tags)) {
         tags[tag] = {
@@ -199,11 +199,12 @@ export const createPages = async ({
     }
     // Check path prefix of Post and Research
     if (
-      frontmatter.path.indexOf(options.pages.posts) !== 0 &&
-            frontmatter.path.indexOf(options.pages.research) !== 0
+      !frontmatter.path ||
+      (frontmatter.path.indexOf(options.pages.posts) !== 0 &&
+            frontmatter.path.indexOf(options.pages.research) !== 0)
     ) {
       // eslint-disable-next-line no-throw-literal
-      throw `Invalid path prefix: ${frontmatter.path}`;
+      throw `Invalid path prefix: ${frontmatter.path || 'undefined'} in file: ${node.internal.contentFilePath}`;
     }
 
     const data = {};

@@ -1,0 +1,27 @@
+---
+title: "Synthesizing Programmatic Reinforcement Learning Policies with Demonstrations Guided Search"
+tags: ["Programmatic Reinforcement Learning"]
+date: Mar. 2025 - Present
+priority: -20250122
+path: "research/DRL-GS"
+# excerpt: "We consider the *adversarial attack* on training data attribution methods."
+selected: true
+# cover: "./preview.png"
+# venue: "ICLR 2025"
+links:
+# - name: "arXiv"
+#   url: "https://arxiv.org/abs/2409.05657"
+# - name: "Poster"
+#   url: "./research/Adversarial-Attack-on-Data-Attribution/poster.pdf"
+authors:
+- name: "Chon-Ho Chang"
+- name: "**Vincent Octavian Tiono**"
+  url: "https://vincent-tiono.github.io/"
+- name: "Wei-Hsu Lee"
+- name: "Shao-Hua Sun"
+  url: "https://shaohua0116.github.io/"
+---
+
+## Abstract
+
+Most RL policies are in the forms of neural networks, which can be viewed as uninterpretable black boxes. Programmatic reinforcement learning (PRL) represents RL policies in the form of programs to improve generalization and interpretability. The current state-of-the-art method seeds program search with large language models (LLMs) prompted by text task descriptions. Despite promising outcomes, it requires text-based prompts to describe tasks, which are often imprecise, leaving certain tasks requiring millions of search steps. We propose Demo-Guided Search (DGS), which replaces text with demonstration trajectories as the supervisory signal. Our key insight is that providing demonstration trajectories to a task is a more direct signal compared to text descriptions. The key challenge is converting perception–action trajectories into domain-specific language (DSL) programs. DGS addresses this with a divide-and-conquer approach: a “divider” segments long demonstrations into shorter, consistent sub-trajectories, and a “composer” synthesizes these segments into generalizable programs. In the Karel domain, DGS produces correct programs without search for a subset of tasks and substantially accelerates search for others. Ablations confirm the necessity of both modules. We also discuss how well our pipeline captures the demonstration’s intentions and how different sources of demonstrations affect the output program.

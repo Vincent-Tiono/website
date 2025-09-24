@@ -23,20 +23,22 @@ const ResearchCard = (props) => {
   const {
     frontmatter: {
       cover,
-    },
+    } = {},
     fields: {
-      slug: {
-        title,
-        authors,
-        excerpt,
-        path,
-        date,
-        tags,
-        venue,
-        links,
-      },
-    },
-  } = node;
+      slug,
+    } = {},
+  } = node || {};
+
+  const {
+    title,
+    authors,
+    excerpt,
+    path,
+    date,
+    tags,
+    venue,
+    links,
+  } = slug || {};
   const image = cover ? getImage(cover) : null;
   // console.log(fluid);
 

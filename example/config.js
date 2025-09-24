@@ -108,17 +108,17 @@ module.exports = {
         {
           date: 'June 2025 - Aug. 2025',
           title: 'Strategy and Transactions Summer Associate',
-          location: '**EY-Parthenon**',
+          location: '[**EY-Parthenon**]((https://www.ey.com/zh_tw/services/strategy-transactions))',
           description: [],
         }, {
           date: 'Mar. 2025 - June 2025',
           title: 'AI and Data Analytics Intern',
-          location: '**Ubiik**',
+          location: '[**Ubiik**](https://www.ubiik.com/)',
           description: [],
         }, {
           date: 'June 2024 - Aug. 2024',
           title: 'Business Administration Intern',
-          location: '**Walsin Lihwa**',
+          location: '[**Walsin Lihwa**](https://www.walsin.com/en/)',
           description: [],
         },
       ],
@@ -167,8 +167,8 @@ module.exports = {
           // date: 'Aug 2018',
           title: 'Campus Ambassador',
           description: [
-            '• NTU College of Management Exchange Tour (2024)',
             '• Kennesaw State University, Dept. of ECE — School visit to NTU (2025)',
+            '• NTU College of Management Exchange Tour (2024)',
           ],
         }, {
           // date: 'Aug 2017',
@@ -180,15 +180,35 @@ module.exports = {
           ],
         },
       ],
+    }, {
+      title: 'Research Experience',
+      position: 'right',
+      data: [
+        {
+          date: '(Incoming) Nov. 2025',
+          title: 'Visiting Scholar',
+          location: '[**Institute for Solid State Physics, the University of Tokyo**](https://www.issp.u-tokyo.ac.jp/index_en.html)',
+          description: [],
+        },
+        {
+          date: 'Feb. 2025 - Present',
+          title: 'Undergraduate Researcher',
+          location: '[**NTU Robot Learning Lab**](https://nturll.xyz/about)',
+          description: [],
+        },
+      ],
     },
   ],
   awards: [
     {
-      date: 'Someday',
-      title: 'Some Award',
+      date: 'June 2025',
+      title: 'Merit Award — CHT × NTU GMBA AI–Business Competition',
     }, {
-      date: 'Someday',
-      title: 'Another Award',
+      date: '2025',
+      title: 'Academic and Conduct Excellence Scholarship',
+    }, {
+      date: '2024, 2023',
+      title: 'Outstanding Overseas Chinese Students Scholarship',
     },
   ],
   tagColors: [
