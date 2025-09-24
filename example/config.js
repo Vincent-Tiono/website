@@ -12,7 +12,7 @@ module.exports = {
     // 'In this site, almost everything supports Markdown Syntax. For example, you can add hyperlinks in the introduction such as [fxhsb](https://github.com/Reapor-Yurnero) with\n```markdown\n[fxhsb](https://github.com/Reapor-Yurnero)\n```',
     'Beyond my work in Machine Learning, I\'ve had the privilege of interning at [VICI Holdings](https://www.viciholdings.com/en/) as a **Quantitative Research Intern**, [EY-Parthenon](https://www.ey.com/zh_tw/services/strategy-transactions) as a **Strategy and Transactions Summer Associate**, and [Walsin Lihwa](https://www.walsin.com/en/) as a **Business Administration Intern**. Broadly, I am passionate about the intersection of **AI**, **Quant Trading**, and **Business Strategy**.',
   ],
-  avatar: 'example/static/avatar-new.png',
+  avatar: 'avatar-new.png',
   professions: [
     // 'Software Engineer',
     // 'Full Stack Developer',
@@ -102,14 +102,24 @@ module.exports = {
     }],
   experience: [
     {
-      title: 'Work',
+      title: 'Industry Experience',
       position: 'left',
       data: [
         {
-          date: 'Aug 2019 - Present',
-          title: 'Software Engineer',
-          location: 'Somewhere',
-          description: 'description',
+          date: 'June 2025 - Aug. 2025',
+          title: 'Strategy and Transactions Summer Associate',
+          location: '**EY-Parthenon**',
+          description: [],
+        }, {
+          date: 'Mar. 2025 - June 2025',
+          title: 'AI and Data Analytics Intern',
+          location: '**Ubiik**',
+          description: [],
+        }, {
+          date: 'June 2024 - Aug. 2024',
+          title: 'Business Administration Intern',
+          location: '**Walsin Lihwa**',
+          description: [],
         },
       ],
     }, {
@@ -117,43 +127,57 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Aug 2019',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
-        }, {
-          date: 'Aug 2018',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
-        }, {
-          date: 'Aug 2017',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
-        }, {
-          date: 'Aug 2018',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
-        }, {
-          date: 'Aug 2017',
-          title: 'Teaching Assistant of XXX',
-          location: 'Somewhere',
-        },
+          date: 'Fall 2025',
+          title: 'Teaching Assistant — [EE4058 Photonics Lab](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=901%2040800&class=&dpt_code=9010&ser_no=21716&semester=114-1)',
+          location: 'National Taiwan University',
+          description: ['An undergraduate-level laboratory course on optical signal processing.'],
+        }, 
+        // {
+        //   date: 'Aug 2018',
+        //   title: 'Teaching Assistant of XXX',
+        //   location: 'Somewhere',
+        // }, {
+        //   date: 'Aug 2017',
+        //   title: 'Teaching Assistant of XXX',
+        //   location: 'Somewhere',
+        // }, {
+        //   date: 'Aug 2018',
+        //   title: 'Teaching Assistant of XXX',
+        //   location: 'Somewhere',
+        // }, {
+        //   date: 'Aug 2017',
+        //   title: 'Teaching Assistant of XXX',
+        //   location: 'Somewhere',
+        // },
       ],
     }, {
-      title: 'Volunteer',
+      title: 'Professional Service',
       position: 'left',
       data: [
         {
-          date: 'Aug 2019',
-          title: '[fxh](https://github.com/Reapor-Yurnero) home visit third time',
-          location: 'Somewhere',
+          // date: 'Aug 2019',
+          title: 'Public Relations',
+          // location: 'Somewhere',
+          description: [
+            '• [NTU EE Student Assoc. (2025)](https://www.facebook.com/ntuee.org/?locale=zh_TW)',
+            '• [NTU iOS Club (2024)](https://www.instagram.com/ntu.iosclub/?hl=en)', 
+            '• [NTU Indonesian Student Assoc. (2023)](https://www.instagram.com/ntuisa/?hl=en)',
+          ],
         }, {
-          date: 'Aug 2018',
-          title: '[fxh](https://github.com/Reapor-Yurnero) home visit second time',
-          location: 'Somewhere',
+          // date: 'Aug 2018',
+          title: 'Campus Ambassador',
+          description: [
+            '• NTU College of Management Exchange Tour (2024)',
+            '• Kennesaw State University, Dept. of ECE — School visit to NTU (2025)',
+          ],
         }, {
-          date: 'Aug 2017',
-          title: '[fxh](https://github.com/Reapor-Yurnero) home visit\n\n111',
-          location: 'Somewhere',
+          // date: 'Aug 2017',
+          title: 'Program Committee',
+          description: [
+            '• [National Programming Contest, Malaysia (2025)](https://nsspc.io/)',
+            '• [Indonesian Students Assoc. in Taiwan (2024)](https://ppitaiwan.id/)',
+            '• [NTU Orientation Camp (2023)](https://ntuorientation.com/home-en/)',
+          ],
         },
       ],
     },

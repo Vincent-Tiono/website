@@ -10,12 +10,39 @@ import Utils from '../../utils/pageUtils.mjs';
 
 const generateListItem = (data) => {
   const title = Utils.parseMarkDown(data.title, true);
-  const description = Utils.parseMarkDown(data.description, true);
+  const location = data.location ? Utils.parseMarkDown(data.location, true) : null;
+  
+  // Handle description as either string or array (like introduction)
+  let descriptionContent = null;
+  if (data.description) {
+    if (Array.isArray(data.description)) {
+      // Handle array format like introduction
+      descriptionContent = data.description.map((paragraph, index) => (
+        <div key={index} dangerouslySetInnerHTML={{ __html: Utils.parseMarkDown(paragraph, true) }} />
+      ));
+    } else {
+      // Handle single string format
+      const description = Utils.parseMarkDown(data.description, true);
+      descriptionContent = <div dangerouslySetInnerHTML={{ __html: description }} />;
+    }
+  }
+  
+  // Build the date/location line with proper comma handling
+  const dateLocationParts = [];
+  if (data.date) dateLocationParts.push(data.date);
+  if (location) dateLocationParts.push(<span key="location" dangerouslySetInnerHTML={{ __html: location }} />);
+  
   return (
     <Panel style={{ padding: '12.5px 20px' }}>
       <h6 dangerouslySetInnerHTML={{ __html: title }} />
-      <div style={{ color: 'var(--rs-text-secondary)' }}>{`${data.date}, ${data.location}`}</div>
-      <div dangerouslySetInnerHTML={{ __html: description }} />
+      {dateLocationParts.length > 0 && (
+        <div style={{ color: 'var(--rs-text-secondary)' }}>
+          {dateLocationParts.reduce((prev, curr, index) => 
+            index === 0 ? [curr] : [...prev, ', ', curr], []
+          )}
+        </div>
+      )}
+      {descriptionContent}
     </Panel>
   );
 };
