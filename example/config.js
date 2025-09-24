@@ -102,6 +102,29 @@ module.exports = {
     }],
   experience: [
     {
+      title: 'Research Experience',
+      position: 'left',
+      data: [
+        {
+          date: '(Incoming) Nov. 2025',
+          title: 'Visiting Scholar',
+          location: '[**The Institute for Solid State Physics, The University of Tokyo**](https://www.issp.u-tokyo.ac.jp/index_en.html)',
+          description: [
+            '• Advisor: [Lung-Han Peng](https://gipo.ntu.edu.tw/en/member/faculty/Lung-Han-Peng-6188140), [Akiyama Hidefumi](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/akiyama_group_en.html), [Yohei Kobayashi](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/kobayashi_group_en.html), [Shinji Miwa](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/miwa_group_en.html)',
+          ],
+        },
+        {
+          date: 'Feb. 2025 - Present',
+          title: 'Undergraduate Researcher',
+          location: '[**NTU Robot Learning Lab**](https://nturll.xyz/about)',
+          description: [
+            '• Advisor: [Shao-Hua Sun](https://shaohua0116.github.io/)',
+            '• Project: [**Synthesizing Programmatic Reinforcement Learning Policies with Demonstrations Guided Search**](/research/DRL-GS)',
+          ],
+        },
+      ],
+    },
+    {
       title: 'Industry Experience',
       position: 'left',
       data: [
@@ -122,7 +145,8 @@ module.exports = {
           description: [],
         },
       ],
-    }, {
+    }, 
+    {
       title: 'Teaching',
       position: 'right',
       data: [
@@ -152,7 +176,7 @@ module.exports = {
       ],
     }, {
       title: 'Professional Service',
-      position: 'left',
+      position: 'right',
       data: [
         {
           // date: 'Aug 2019',
@@ -178,23 +202,6 @@ module.exports = {
             '• [Indonesian Students Assoc. in Taiwan (2024)](https://ppitaiwan.id/)',
             '• [NTU Orientation Camp (2023)](https://ntuorientation.com/home-en/)',
           ],
-        },
-      ],
-    }, {
-      title: 'Research Experience',
-      position: 'right',
-      data: [
-        {
-          date: '(Incoming) Nov. 2025',
-          title: 'Visiting Scholar',
-          location: '[**The Institute for Solid State Physics, The University of Tokyo**](https://www.issp.u-tokyo.ac.jp/index_en.html)',
-          description: [],
-        },
-        {
-          date: 'Feb. 2025 - Present',
-          title: 'Undergraduate Researcher',
-          location: '[**NTU Robot Learning Lab**](https://nturll.xyz/about)',
-          description: [],
         },
       ],
     },
