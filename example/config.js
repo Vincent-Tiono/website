@@ -40,11 +40,14 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
+      url: 'https://www.linkedin.com/in/vincent-tiono/',
+      icon: ['fab', 'linkedin'],
+    }, {
       url: 'https://github.com/Vincent-Tiono',
       icon: ['fab', 'github'],
     }, {
-      url: 'https://www.linkedin.com/in/vincent-tiono/',
-      icon: ['fab', 'linkedin'],
+      url: 'https://medium.com/@vincent_tiono',
+      icon: ['fa-brands', 'fa-medium'],
     },
     // {
     //   url: 'https://twitter.com/',
