@@ -132,9 +132,14 @@ module.exports = {
       position: 'left',
       data: [
         {
+          date: '(Incoming) Oct. 2025',
+          title: 'Quantitative Research Intern',
+          location: '[**VICI Holdings**](https://www.viciholdings.com/en/)',
+          description: [],
+        }, {        
           date: 'June 2025 - Aug. 2025',
           title: 'Strategy and Transactions Summer Associate',
-          location: '[**EY-Parthenon**]((https://www.ey.com/zh_tw/services/strategy-transactions))',
+          location: '[**EY-Parthenon**](https://www.ey.com/zh_tw/services/strategy-transactions)',
           description: [],
         }, {
           date: 'Mar. 2025 - June 2025',
