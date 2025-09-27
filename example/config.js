@@ -209,6 +209,7 @@ module.exports = {
             '• [National Programming Contest, Malaysia (2025)](https://nsspc.io/)',
             '• [Indonesian Students Assoc. in Taiwan (2024)](https://ppitaiwan.id/)',
             '• [NTU Orientation Camp (2023)](https://ntuorientation.com/home-en/)',
+            '• NTU EE Camp (2023)',
           ],
         },
       ],
