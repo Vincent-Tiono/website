@@ -115,14 +115,21 @@ module.exports = {
           description: [
             '• Advisor: [Lung-Han Peng](https://gipo.ntu.edu.tw/en/member/faculty/Lung-Han-Peng-6188140), [Akiyama Hidefumi](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/akiyama_group_en.html), [Yohei Kobayashi](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/kobayashi_group_en.html), [Shinji Miwa](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/miwa_group_en.html)',
           ],
-        },
-        {
+        }, {
           date: 'Feb. 2025 - Present',
           title: 'Undergraduate Researcher',
           location: '[**NTU Robot Learning Lab**](https://nturll.xyz/about)',
           description: [
             '• Advisor: [Shao-Hua Sun](https://shaohua0116.github.io/)',
             '• Project: [**Synthesizing Programmatic Reinforcement Learning Policies with Demonstrations Guided Search**](/research/DRL-GS)',
+          ],
+        }, {
+          date: 'June 2024 - Dec. 2024',
+          title: 'Undergraduate Researcher',
+          location: '[**NTU Design Verification Lab**](https://dvlab.ee.ntu.edu.tw/)',
+          description: [
+            '• Advisor: [Chung-Yang (Ric) Huang](https://cc.ee.ntu.edu.tw/~ric/)',
+            '• Project: [**Solving Graeco-Latin Squares Using MiniSAT**](https://github.com/Vincent-Tiono/graeco-latin)',
           ],
         },
       ],
